@@ -1,0 +1,78 @@
+.container {
+    height: 50rem;
+    width: 30rem;
+    background: #ba112e;
+    border-radius: 10px;
+}
+
+.logo-container {
+    width: 100%;
+}
+
+.logo {
+    margin: 2rem;
+}
+
+.display {
+    width: 85%;
+    height: 6rem;
+    margin: 0 auto;
+    background: #333;
+    border-radius: 7rem;
+    color: white;
+    font-size: 3.5rem;
+    text-align: end;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+}
+
+.button-container {
+    width: 85%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 20% 80%;
+}
+
+.number-container {
+    grid-column: 1 / 2;
+    grid-row: 2 /3 ;
+}
+
+.operator-container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+.special-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.buttons {
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 5rem;
+    margin: 10px;
+    font-size: 2.5rem;
+    box-shadow: 3px 3px rgb(87, 83, 83);
+}
+
+.numberButton {
+    background: #233d6e;
+}
+
+.number-container :nth-child(10) {
+    width: 60%;
+}
+
+.operatorButton {
+    background: #287d80;
+}
+
+.specialButton {
+    background: #3060a0;
+}
